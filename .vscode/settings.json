@@ -1,0 +1,19 @@
+{
+    "eslint.enable": false,
+    "jshint.enable": false,
+    "tslint.enable": false,
+    "codemetrics.basics.DecorationModeEnabled": false,
+    "codemetrics.basics.CodeLensEnabled": false,
+    "codemetrics.basics.DiagnosticsEnabled": true,
+    "codemetrics.basics.MetricsForClassDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForConstructorsToggled": false,
+    "codemetrics.basics.MetricsForEnumDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForFunctionExpressionsToggled": false,
+    "codemetrics.basics.MetricsForMethodDeclarationsToggled": false,
+    "codemetrics.basics.MetricsForArrowFunctionsToggled": false,
+    "codemetrics.basics.EnabledForLua": false,
+    "codemetrics.basics.EnabledForJSX": false,
+    "codemetrics.basics.EnabledForTS": false,
+    "codemetrics.basics.EnabledForTSX": false,
+    "codemetrics.basics.ComplexityLevelExtreme": 25
+}

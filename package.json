@@ -1,0 +1,35 @@
+{
+  "name": "mongoscraper",
+  "version": "1.0.0",
+  "description": "Scrape articles from the NYTimes etc",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ian-Maynard/MongoScraper.git"
+  },
+  "keywords": [
+    "Mongo",
+    "Scraper",
+    "Cheerio"
+  ],
+  "author": "Ian Maynard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ian-Maynard/MongoScraper/issues"
+  },
+  "homepage": "https://github.com/Ian-Maynard/MongoScraper#readme",
+  "dependencies": {
+    "bitly-api": "0.0.1",
+    "bitlyapi": "^1.0.9",
+    "body-parser": "^1.17.2",
+    "cheerio": "^1.0.0-rc.1",
+    "express": "^4.15.3",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.10.8",
+    "mongoose-float": "^1.0.2",
+    "request": "^2.81.0"
+  }
+}
