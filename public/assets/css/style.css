@@ -1,29 +1,113 @@
-         .reuters {
-             background-color: #e97805;
-             color: black;
-         }
-         
-         .dw {
-             background-color: #0098ff;
-             color: white;
-         }
-         
-         .bloom {
-             background-color: #2b00f7;
-             color: white;
-         }
-         
-         .upi {
-             background-color: #006699;
-             color: white;
-         }
-         
-         .timemag {
-             background-color: #e90606;
-             color: white;
-         }
-         
-         .def {
-             background-color: white;
-             color: black;
-         }
+                                            .reu {
+                                                font-size: 9px;
+                                                background-color: #e97805;
+                                                color: white;
+                                                text-align: center;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            .dw {
+                                                font-size: 9px;
+                                                background-color: #ffce00;
+                                                color: black;
+                                                text-align: center;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            .bloom {
+                                                font-size: 9px;
+                                                background-color: #2b00f7;
+                                                color: white;
+                                                text-align: center;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            .upi {
+                                                font-size: 9px;
+                                                text-align: center;
+                                                background-color: #006699;
+                                                color: white;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            .timemag {
+                                                font-size: 9px;
+                                                text-align: center;
+                                                background-color: #e90606;
+                                                color: white;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            .def {
+                                                font-size: 9px;
+                                                text-align: center;
+                                                background-color: white;
+                                                color: black;
+                                                display: inline-block;
+                                                width: 120px;
+                                                height: 120px;
+                                                margin: 1em;
+                                            }
+                                            
+                                            body {
+                                                background-color: #F2F6D0;
+                                            }
+                                            
+                                            #wrapper {
+                                                width: 960px;
+                                                margin-left: 05%;
+                                                margin-right: auto;
+                                                padding-top: 2%;
+                                                padding-bottom: 5%;
+                                                background-color: #F2F6D0;
+                                            }
+                                            
+                                            #articles {
+                                                background-color: #aec7ef;
+                                                display: inline-block;
+                                                overflow: auto;
+                                                width: 80%;
+                                                height: 450px;
+                                            }
+                                            
+                                            #notes {
+                                                float: right;
+                                                width: 15%;
+                                            }
+                                            
+                                            textarea,
+                                            input {
+                                                display: block;
+                                                width: 100%;
+                                                background-color: #E8F23E;
+                                            }
+                                            
+                                            input {
+                                                height: 36px;
+                                                font-size: 24px;
+                                            }
+                                            
+                                            textarea {
+                                                height: 200px;
+                                                font-size: 24px;
+                                            }
+                                            
+                                            .h1 {
+                                                font-size: 75;
+                                                color: red;
+                                            }
