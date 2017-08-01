@@ -15,5 +15,7 @@
     "codemetrics.basics.EnabledForJSX": false,
     "codemetrics.basics.EnabledForTS": false,
     "codemetrics.basics.EnabledForTSX": false,
-    "codemetrics.basics.ComplexityLevelExtreme": 25
+    "codemetrics.basics.ComplexityLevelExtreme": 25,
+    "jsDocCompletion.enabled": false,
+    "editor.autoClosingBrackets": false
 }

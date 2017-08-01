@@ -1,11 +1,13 @@
-// Require mongoose
-var mongoose = require("mongoose");
-// Create Schema class
-var Schema = mongoose.Schema;
 
-// Create article schema
+var mongoose = require("mongoose"); // Require mongoose
+var Schema = mongoose.Schema; // Create Schema class
+
+// Article schema
 var ArticleSchema = new Schema({
-  // title is a required string
+  source: {
+      type: String,
+      required: true
+  },
   title: {
     type: String,
     required: true
@@ -15,15 +17,12 @@ var ArticleSchema = new Schema({
     type: String,
     required: true
   },
-  // This only saves one note's ObjectId, ref refers to the Note model
   note: {
     type: Schema.Types.ObjectId,
     ref: "Note"
   }
 });
 
-// Create the Article model with the ArticleSchema
 var Article = mongoose.model("Article", ArticleSchema);
 
-// Export the model
 module.exports = Article;

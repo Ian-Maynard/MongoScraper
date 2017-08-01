@@ -25,7 +25,7 @@
     "bitly-api": "0.0.1",
     "bitlyapi": "^1.0.9",
     "body-parser": "^1.17.2",
-    "cheerio": "^1.0.0-rc.1",
+    "cheerio": "^1.0.0-rc.2",
     "express": "^4.15.3",
     "express-handlebars": "^3.0.0",
     "mongoose": "^4.10.8",
